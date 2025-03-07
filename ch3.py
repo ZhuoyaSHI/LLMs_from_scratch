@@ -454,7 +454,7 @@ context_vecs = ca(batch)
 Dividing the attention mechanism into multiple "heads", each opearatiing independently.
 """
 
-#* Stacking multiple singl-head attention layers (Intuitively build multi-head attention module)
+#* Stacking multiple single-head attention layers (Intuitively build multi-head attention module)
 #Run the attention mechanism multiple times (in parallel) with different, learned linear projections--the results 
 #of multiplying the input data (query, key, and value vectors in attention mechanisms) by a weight matrix. 
 
